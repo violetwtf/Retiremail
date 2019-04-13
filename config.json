@@ -7,7 +7,6 @@
     ],
     "includeRetiremailCredit": true,
 
-    "domain": "violet.wtf",
     "imap": {
         "host": "imap.example.org",
         "port": 993,
