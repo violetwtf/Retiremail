@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://violet.lgbt/Retiremail.png">
+</p>
+
 # Retiremail
 A small script to notify users of retired email accounts. I made this because I needed it to use it myself, for violet.wtf, but feel free if you want to use it, too.
 
