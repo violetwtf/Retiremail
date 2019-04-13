@@ -37,7 +37,8 @@ const {
     githubMessage
 } = config;
 
-// IMAP config values. Declared like this for simplicity (see line 56)
+// IMAP config values. Declared like this for simplicity (see notifier() opts 
+// below)
 const { host, port, tls, authTimeout } = imap;
 
 console.init(LOGO_ASCII);
