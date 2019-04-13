@@ -40,7 +40,7 @@ node .
 ```
 
 ## License
-Retiremail is licensed under the MIT license. See: `LICENSE.md`.
+Retiremail is licensed under the MIT license. See [LICENSE.md](https://github.com/violetwtf/Retiremail/blob/master/LICENSE.md)
 
 ## Support
 [Create an issue](https://github.com/violetwtf/retiremail/issues/new), [a pull request](https://github.com/violetwtf/retiremail/pulls), or an email to <retiremail@violet.wtf>.
