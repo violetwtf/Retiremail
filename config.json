@@ -1,0 +1,81 @@
+{
+    "_comment": [
+        "I'm not going to force you to credit my project in your email",
+        "retirement notifications, but I'd really appreciate it if you did.",
+        "Leaving this option true will give a small one-line credit to the",
+        "project."
+    ],
+    "includeRetiremailCredit": true,
+
+    "domain": "violet.wtf",
+    "imap": {
+        "host": "imap.example.org",
+        "port": 993,
+        "tls": true,
+        "authTimeout": 300
+    },
+    "auth": {
+        "globalPassword": false,
+        "addressIsUsername": true,
+        "password": "this_would_be_the_global_password",
+        "sendgridKey": "your_sendgrid_key_here"
+    },
+    "accounts": {
+        "servicesupport@example.org": {
+            "password": "our_cool_password",
+            "personal": false,
+            "suspended": false,
+            "github": "example/test"
+        },
+        "inactive@example.org": {
+            "personal": true,
+            "suspended": false,
+            "password": "my_cool_password"
+        },
+        "badperson@example.org": {
+            "personal": true,
+            "suspended": true,
+            "password": "uncool_password"
+        },
+        "closedsourcesupport@example.org": {
+            "password": "closed_password",
+            "personal": false,
+            "suspended": false
+        }
+    },
+    "message": [
+        "Hello.",
+        "",
+        "This email address is no longer in use.",
+        "",
+        "As a form of preventing email duplication, email addresses are never",
+        "deleted. Instead, a message (this message) is displayed.",
+        "",
+        ""
+    ],
+    "personalMessage": [
+        "If you were the owner of this account, and wish to reclaim it, or",
+        "need to access it for security reasons, please email:",
+        "webmaster@example.org",
+        "",
+        ""
+    ],
+    "suspendedMessage": [
+        "This account was suspended for violating internal Terms of",
+        "Service. Reclaiming of this account is not allowed.",
+        "",
+        ""
+    ],
+    "projectMessage": [
+        "This project has been discontinued. Unless emailed otherwise, support",
+        "for this project and your data on it will not be provided.",
+        "",
+        ""
+    ],
+    "githubMessage": [
+        "The source code for this project is available publically! Check it",
+        "out: $github",
+        "",
+        ""
+    ]
+}
