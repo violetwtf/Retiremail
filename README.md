@@ -1,6 +1,16 @@
 # Retiremail
 A small script to notify users of retired email accounts. I made this because I needed it to use it myself, for violet.wtf, but feel free if you want to use it, too.
 
+## Try it yourself!
+Below is a table of addresses you can email, and the config values present with them on a live server. Email any, or all of them, if you want to see Retiremail in action!
+
+Address | Personal | Suspended | GitHub
+--- | --- | --- | ---
+<rm-demo-personal@violet.wtf> | true | false | null
+<rm-demo-suspended@violet.wtf> | true | true | null
+<rm-demo-project@violet.wtf> | false | false | null
+<rm-demo-github@violet.wtf> | false | false | `violetwtf/Retiremail`
+
 ## Prerequisites
 * Mail server
 * Retired mail account(s)
